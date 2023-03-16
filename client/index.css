@@ -1,0 +1,75 @@
+body {
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-azul-formas-geometricas_1035-17545.jpg?w=2000');
+    background-size: cover;
+  }
+header {
+    background-image: url("https://img.freepik.com/free-vector/modern-flowing-colorful-wave-banner-background_1035-19861.jpg");
+    background-size: cover;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+textarea {
+    margin-top: 20px;
+    width: 100%;
+}
+
+button {
+    margin-top: 20px;
+}
+

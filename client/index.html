@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Testing AWS API Gateway WebSockets
+    </title>
+    <!-- Enlazamos el archivo CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Enlazamos nuestro archivo CSS personalizado -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Testing AWS API Gateway WebSockets</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="conectar">Conectar:</label>
+                    <input type="text" class="form-control" id="conectar" placeholder="WebSocket server address">
+                    <button id="boton" class="btn btn-primary mt-3">Conectar Socket</button>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Selecciona una funcion
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    </div>
+                </div>
+                <textarea id="codigo" rows="10" cols="50"></textarea>
+
+            </div>
+            <div class="col-md-6">
+                <div id="estado" class="text-center my-3">Inicio</div>
+                <div id="messageList" style="border: 1px solid #C0C0C0; margin-top: 10px; padding: 10px">
+                    List is Empty
+                </div>
+            </div>
+            <button id="enviarCodigo" class="btn btn-primary mt-3">Enviar Mensaje</button>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>Copyright © 2023.</p>
+        </div>
+    </footer>
+    <!-- Enlazamos el archivo JS de Bootstrap y el nuestro personalizado -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+    <script src="events.js"></script>
+</body>
+
+</html>
